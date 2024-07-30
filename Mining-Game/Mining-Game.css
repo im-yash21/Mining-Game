@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#heading {
+    color: rgb(146, 143, 143);
+    font-size: 38px;
+    text-align: center;
+    cursor: pointer;
+    font-family: system-ui, -apple-system;
+    background-color: rgb(12, 49, 47);
+    border-bottom: 2px solid lightgrey;
+}
+
+#heading:hover {
+    color: rgb(12, 49, 47);
+    background-color: rgb(146, 143, 143);
+    border-bottom: 2px solid rgb(3, 144, 22);
+}
+
+#boxes {
+    margin-top: 30px;
+    width: fit-content;
+    height: fit-content;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border: 1px solid rgb(64, 65, 64);
+    border-radius: 7px;
+}
+
+button:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px #00eeff;
+}
+#Restart {
+    margin-top: 10px;
+    color: rgb(146, 143, 143);
+    font-size: 25px;
+    width: fit-content;
+    font-family: monospace;
+    border: 3px rgb(12, 49, 47) solid;
+}
+
+#Restart:hover {
+    color: black;
+    box-shadow: 0px 0px 70px rgb(12, 49, 47);
+    background-color: rgb(12, 49, 47);
+    transition: all 0.5s ease-out;
+}
+
+summary {
+    margin-top: 20px;
+    color: rgb(146, 143, 143);
+    font-size: 38px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system;
+}
+
+details {
+    color: rgb(146, 143, 143);
+    font-size: 30px;
+    cursor: text;
+}
